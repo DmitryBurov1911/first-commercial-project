@@ -1,0 +1,58 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Балки и швеллеры{% endblock %}
+
+{% load static %}
+
+{% block content %}
+{% csrf_token %}
+
+    <div class="balki"></div>
+
+        <h1>Балки и швеллеры</h1>
+
+
+        <h2 class="balkih21">Балка металлическая двутавровая</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/balka-1.jpg' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Двутавровая балка относится к фасонному металлопрокату. Характерное отличие от остального проката – это поперечное сечение в виде буквы «Н». Двутавр носит такое название от латинского слова taurus (бык),
+            что говорит о двурогости. Стальная балка примерно в 7 раз прочнее и 30 раз жестче квадрата аналогичной площади сечения. Однако устойчивость к скручиванию значительно меньше, чем у круглой трубы такого же сечения.
+            Она популярна и в промышленном, и в частном строительстве благодаря соотношению цены и прочности.  </h5>
+        
+           <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="balkih22">Балки двутавровые низколегированные</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/balka-nizkol.png' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Двутавровая балка низколегированная — представляет собой металлическое изделие Н-образного сечения из углеродистой и низколегированной стали,
+            применяется в крупнопанельном, промышленном и гражданском строительстве для перекрытий, колонных металлоконструкций, мостовых сооружений, опор и подвесных путей.</h5>
+        
+           <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="balkih23">Швеллер гнутый</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/shveller-gnutyj.png' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Швеллер гнутый стальной представляет собой П-образное сечение, как и горячекатаный, но имеет более скруглённые внешние углы, более точные размеры.
+            т.к. при производстве устраняются дефекты, имеющиеся у заготовки. При применении гнутого швеллера не требуется дополнительная обработка,
+            в отличие от горячекатаного швеллера, гнутый имеет равномерную толщину изделия. Гнутый швеллер значительно легче горячекатаного проката,
+            соответственно экономически выгоднее для покупателя.</h5>
+        
+       <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="balkih25">Швеллер низколегированный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/shveller-nizkol.png' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Швеллер низколегированный являет собой отдельную разновидность фасонного проката. Его сфера применения очень широка.
+            Этот вид продукции применяется в машиностроении, промышленности, станкостроении и т. д.</h5>
+        
+       <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+        
+{% endblock %}

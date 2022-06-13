@@ -1,0 +1,16 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Подробнее{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ article.title }}</h1>
+        <h2>{{ article.anons }}</h2>
+        <p>{{ article.full_text }}</p>
+        <p>{{ article.date }}</p>
+        <p><img src="{{ article.image }}"></p>
+
+        <a href="{% url 'delete-view' article.id %}"><button class="btn btn-danger">Удалить информацию</button></a>
+        <a href="{% url 'update-view' article.id %}"><button class="btn btn-warning">Изменить информацию</button></a>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Связаться с нами{% endblock %}
+
+{% block content%}
+    <form method="post">
+        {% csrf_token %}
+        
+        <h1>Ваше письмо было успешно отправлено</h1>
+
+            <button class="btn btn-success" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/">К материалам</a></button>
+
+    </form>
+{% endblock %}

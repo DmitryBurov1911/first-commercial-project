@@ -1,0 +1,33 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Профнастил{% endblock %}
+
+{% load static %}
+
+{% block content %}
+{% csrf_token %}
+
+        <h1 class="profanstil">Профнастил</h1>
+
+
+        <h2 class="profanstilh21">Профнастил окрашенный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/profanstil-okrash.jpg' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Окрашенный профнастил – профилированные листы, поверхность которых покрыта специальными полимерными материалами. В состав последних входят не только красящие пигменты,
+            но и разные присадки, увеличивающие технико-эксплуатационные свойства металлопроката. Выпускаются изделия, окрашенные с двух либо с одной стороны.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="profanstilh22">Профнастил оцинкованный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/profanstil.jpg' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Профнастил представляет собой стальные оцинкованные листы, сделанные методом продольного проката. Профилированные листы бывают с полимерным покрытием или без него.
+            Профнастил без покрытия называют оцинкованным.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+{% endblock %}

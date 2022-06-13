@@ -1,0 +1,46 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Сетка стальная{% endblock %}
+
+{% load static %}
+
+{% block content %}
+{% csrf_token %}
+
+        <h1 class="setka">Сетка стальная</h1>
+
+
+        <h2 class="setkah21">Сетка сварная</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/setka-svarn.webp' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Сварная металлическая сетка используется в основном для армирования железобетонных изделий и многих несущих конструкций.
+            Она обладает повышенной прочностью за счет применения автоматических сварных соединений перпендикулярных проволок из низкоуглеродистой стали. Они должны быть рифлеными, чтобы обладать высоким уровнем адгезии с бетоном и повышать монолитность готового изделия.
+            Сетка металлическая сварная может иметь повышенную защиту от коррозии. Это очень актуально при использовании ее в роли основного несущего элемента или ограждения, на которое постоянно будет воздействовать влага и другая коррозионная среда.
+            Мы поставляем сварную сетку в широком ассортименте.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="setkah21">Сетка рабица</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/setka-rabica.png' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Сетка оцинкованная «Рабица» применяется в качестве садового ограждения. Из нее можно построить вольер для животных или отделить территорию для содержания птиц. Из сетки можно изготавливать отдельные секции и использовать их для ограждения участков территорий.
+            В строительстве ее используют для армирования поверхностей при теплоизоляционных работах.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="setkah21">Сетка тканная</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/setka-tkannaya.jpg' %}" alt="Арматура А3 А400">
+
+        <h5 class="armaturih51">Тканая сетка – это полотно из проволоки, переплетенной ткацким методом под прямым углом, образующим одинаковые ячейки. Применяется в строительстве, сельском хозяйстве, промышленности, устройстве большинства видов очистных,
+            сортировочных или отсеивающих систем. Вид, размерность, классность и приемлемые допуски регламентированы ГОСТ 3826-82.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+
+{% endblock %}

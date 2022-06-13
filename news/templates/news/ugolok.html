@@ -1,0 +1,53 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Уголок, квадрат горячекатный{% endblock %}
+
+{% load static %}
+
+{% block content %}
+{% csrf_token %}
+
+        <h1 class="ugolok">Уголок, квадрат горячекатный</h1>
+
+
+        <h2 class="ugolokh21">Квадрат горячекатаный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/Ugolok.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">На рынке металлопроката довольно популярен квадрат стальной, который является разновидностью черного сортового проката общего назначения.
+            Он применяется во многих сферах производства, в строительстве и в быту. Квадрат стальной имеет свою классификацию, виды его зависят от таких параметров, как точность прокатки, длина, вид производственного процесса. Одним из наиболее доступного по цене и отличного качества является квадрат стальной горячекатаный.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+        
+        <h2 class="ugolokh22">Уголок неравнополочный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/ugolok-neravn.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Стальной горячекатаный неравнополочный уголок (Г-образная форма поперечного сечения) имеет стороны разной высоты, что позволяет профилю выдерживать значительную нагрузку и не скручиваться по продольной оси.
+            Основные потребители стального горячекатаного неравнополочного уголка — предприятия строительной и машиностроительной отраслей</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="ugolokh22">Уголок равнополочный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/ugolok-ravnopol.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">уголки стальные горячекатаные равнополочные имеют Г-образно сечение и используются в качестве элементов для изготовления металлоконструкций, каркасов, балок ферм и т.д.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="ugolokh23">Уголок равнополочный низколегированный</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/ugolok-nizkogil.webp' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Низколегированные равнополочные уголки относятся к категории изделий с повышенной прочностью. Им отдают предпочтение, когда другая продукция из углеродистой стали не выдерживает высоких нагрузок.
+            Данный вид сортового проката выпускается согласно требованиям ГОСТ.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+
+{% endblock %}

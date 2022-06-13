@@ -1,0 +1,13 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Удаление статьи{% endblock %}
+
+{% block content%}
+    <div class="features">
+        <h1>Вы действительно хотите удалить статью?</h1>
+        <form method="post">
+            {% csrf_token %}<br>
+            <button style="margin: 2px;" class="btn btn-danger" type="submit">Удалить</button>
+        </form>
+    </div>
+{% endblock %}

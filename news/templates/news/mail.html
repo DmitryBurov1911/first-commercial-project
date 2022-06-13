@@ -1,0 +1,18 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Связаться с нами{% endblock %}
+
+{% block content%}
+    <form method="post">
+        {% csrf_token %}
+        
+        <h1>Связаться с нами</h1>
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success">Отправить письмо</button>
+
+        <h2 class="warn">
+            Важно! В письме опишите материал, размеры и количество. ЦЕНА ДОГОВОРНАЯ!!!
+        </h2>
+        
+    </form>
+{% endblock %}

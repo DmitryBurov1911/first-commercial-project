@@ -1,0 +1,54 @@
+{% extends 'glav/layout.html' %}
+
+{% block title %}Трубы стальные оцинкованные{% endblock %}
+
+{% load static %}
+
+{% block content %}
+{% csrf_token %}
+
+        <h1 class="trubi">Трубы стальные оцинкованные</h1>
+
+
+        <h2 class="trubih21">Трубы ВГП</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/truba-vgp.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Аббревиатура расшифровывается следующим образом: В – водо, Г – газо, П – проводная. Из названия сразу становится ясно,
+            основное назначение такого вида стройматериалов – создание трубопроводов для проведения воды и газа. Производится труба ВГП строго по нормам ГОСТ 3262 из стали.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="trubih22">Трубы горячедеформированные</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/truba-goriache.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Труба горячекатанная из стали 09г2с ГОСТ 8732 78 изготавливается методом прокатки. Благодаря этому, на ней нет сварных швов, изделие получается монолитным и прочным. Применяют такие трубы в системах водоотведения, при строительстве газопроводов и пр.
+            Изделия разделяют на толстостенные и тонкостенные. Согласно правилам, они тестируются на загиб, сплющивание и ударопрочность. Длина составляет величину от 4,5 м. до 11,2 м. Производитель выпускает трубы не только круглого сечения, но и квадратного,
+            прямоугольного или овального. Такие аналоги чаще всего применяются для транспортировки жидкостей, которые создают высокое давление при особом температурном режиме эксплуатации.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+        <h2 class="trubih23">Трубы холоднодеформированные</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/truba-holod.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Бесшовные трубы изготавливают без использования сварки, поэтому у них отсутствуют соединительные швы по всей длине окружности. Такая технология сложнее, дороже и требует больше производственных ресурсов.
+            Но ее преимущество очевидно — отсутствие слабых участков в виде стыков позволяет применять изделия в системах с высоким давлением и его резкими перепадами.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+ 
+ 
+        <h2 class="trubih23">Трубы стальные электросварные</h2>
+
+        <img style="width: 300px;" class="balkiimg1" src="{% static '/glav/css/img/truba-electro.jpg' %}" alt="Труба ВГП">
+
+        <h5 class="armaturih51">Трубы электросварные применяются для прокладки внутренних сетей центрального отопления, а также для подведения холодного и горячего водоснабжения. Так же применяются для прокладки надземных и подземных трубопроводов.</h5>
+        
+        <button class="button1" style="margin-top: 2%; background: #198754; border-radius: 25px; color: white;" type="submit" data-test-id="button"><a style="text-decoration: none; color: white;" href="/news/mail">ПРИОБРЕСТИ</a></button>
+
+
+
+{% endblock %}
